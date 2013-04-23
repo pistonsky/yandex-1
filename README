@@ -1,0 +1,19 @@
+The program utilizes regular expressions to parse html file.
+
+To launch type: java Parser keywords to search
+Replace "keywords to search" with your search string.
+
+Sample output:
+
+Document 1:
+http://abc.com
+Welcome to abc.com
+The greatest website in the world!
+abc.com
+
+Document 2:
+...
+
+It will also download 10 pages to the results folder. The files will be named 1.html, 2.html and so on.
+
+If the program throws an error, that means yandex.ru gives captcha page instead of serp.
